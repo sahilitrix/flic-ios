@@ -1,0 +1,6 @@
+framework module Pods_Flic {
+  umbrella header "Pods-Flic-umbrella.h"
+
+  export *
+  module * { export * }
+}

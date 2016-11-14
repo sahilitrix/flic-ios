@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D59B9241DD574EE0039D19A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7D59B9231DD574EE0039D19A /* Podfile */; };
+		7D59B9261DD579CB0039D19A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D59B9251DD579CB0039D19A /* GoogleService-Info.plist */; };
+		7D59B9281DD57B0D0039D19A /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D59B9271DD57B0D0039D19A /* FirebaseReference.swift */; };
+		7D59B92B1DD5806C0039D19A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D59B92A1DD5806C0039D19A /* User.swift */; };
+		7D59B92D1DD587BF0039D19A /* FIRImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D59B92C1DD587BF0039D19A /* FIRImage.swift */; };
 		7D77B0561DCF8CAF0057EB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77B0551DCF8CAF0057EB19 /* AppDelegate.swift */; };
-		7D77B0581DCF8CAF0057EB19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77B0571DCF8CAF0057EB19 /* ViewController.swift */; };
 		7D77B05B1DCF8CAF0057EB19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D77B0591DCF8CAF0057EB19 /* Main.storyboard */; };
 		7D77B05D1DCF8CAF0057EB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D77B05C1DCF8CAF0057EB19 /* Assets.xcassets */; };
 		7D77B0601DCF8CAF0057EB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D77B05E1DCF8CAF0057EB19 /* LaunchScreen.storyboard */; };
 		7D77B06B1DCF8CAF0057EB19 /* FlicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77B06A1DCF8CAF0057EB19 /* FlicTests.swift */; };
 		7D77B0761DCF8CAF0057EB19 /* FlicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77B0751DCF8CAF0057EB19 /* FlicUITests.swift */; };
+		7DF163D71DD6A8E0001D85B5 /* NewsfeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF163D61DD6A8E0001D85B5 /* NewsfeedTableViewController.swift */; };
+		7DF163D91DD6A8FE001D85B5 /* SignupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF163D81DD6A8FE001D85B5 /* SignupTableViewController.swift */; };
+		7DF163DB1DD6A93D001D85B5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF163DA1DD6A93D001D85B5 /* WelcomeViewController.swift */; };
+		7DF163DD1DD6AFEF001D85B5 /* ImagePickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF163DC1DD6AFEF001D85B5 /* ImagePickerHelper.swift */; };
+		FD3F46620F2BDBC508EB6DE2 /* Pods_Flic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAC75C278DED3641C60A00D /* Pods_Flic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DAC75C278DED3641C60A00D /* Pods_Flic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA1F762A9E55B4FBBEDE82C /* Pods-Flic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flic/Pods-Flic.release.xcconfig"; sourceTree = "<group>"; };
+		7D18D9501DD92310008F4469 /* Flic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flic.entitlements; sourceTree = "<group>"; };
+		7D59B9231DD574EE0039D19A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		7D59B9251DD579CB0039D19A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7D59B9271DD57B0D0039D19A /* FirebaseReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		7D59B92A1DD5806C0039D19A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7D59B92C1DD587BF0039D19A /* FIRImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRImage.swift; sourceTree = "<group>"; };
 		7D77B0521DCF8CAF0057EB19 /* Flic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D77B0551DCF8CAF0057EB19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D77B0571DCF8CAF0057EB19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D77B05A1DCF8CAF0057EB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D77B05C1DCF8CAF0057EB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D77B05F1DCF8CAF0057EB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,11 @@
 		7D77B0711DCF8CAF0057EB19 /* FlicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D77B0751DCF8CAF0057EB19 /* FlicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlicUITests.swift; sourceTree = "<group>"; };
 		7D77B0771DCF8CAF0057EB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF163D61DD6A8E0001D85B5 /* NewsfeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsfeedTableViewController.swift; sourceTree = "<group>"; };
+		7DF163D81DD6A8FE001D85B5 /* SignupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupTableViewController.swift; sourceTree = "<group>"; };
+		7DF163DA1DD6A93D001D85B5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		7DF163DC1DD6AFEF001D85B5 /* ImagePickerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerHelper.swift; sourceTree = "<group>"; };
+		B2A3F1CA187E0F1C03387D8E /* Pods-Flic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flic/Pods-Flic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD3F46620F2BDBC508EB6DE2 /* Pods_Flic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +96,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F0408484CF9AC123B6C4E24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DAC75C278DED3641C60A00D /* Pods_Flic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D59B9291DD580540039D19A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D59B9271DD57B0D0039D19A /* FirebaseReference.swift */,
+				7D59B92A1DD5806C0039D19A /* User.swift */,
+				7D59B92C1DD587BF0039D19A /* FIRImage.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		7D77B0491DCF8CAF0057EB19 = {
 			isa = PBXGroup;
 			children = (
+				7D59B9231DD574EE0039D19A /* Podfile */,
+				7D59B9251DD579CB0039D19A /* GoogleService-Info.plist */,
 				7D77B0541DCF8CAF0057EB19 /* Flic */,
 				7D77B0691DCF8CAF0057EB19 /* FlicTests */,
 				7D77B0741DCF8CAF0057EB19 /* FlicUITests */,
 				7D77B0531DCF8CAF0057EB19 /* Products */,
+				D6899B58F1E6C313AB1F1C6B /* Pods */,
+				5F0408484CF9AC123B6C4E24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +141,14 @@
 		7D77B0541DCF8CAF0057EB19 /* Flic */ = {
 			isa = PBXGroup;
 			children = (
+				7D18D9501DD92310008F4469 /* Flic.entitlements */,
 				7D77B0551DCF8CAF0057EB19 /* AppDelegate.swift */,
-				7D77B0571DCF8CAF0057EB19 /* ViewController.swift */,
+				7D59B9291DD580540039D19A /* Model */,
 				7D77B0591DCF8CAF0057EB19 /* Main.storyboard */,
+				7DF163D61DD6A8E0001D85B5 /* NewsfeedTableViewController.swift */,
+				7DF163D81DD6A8FE001D85B5 /* SignupTableViewController.swift */,
+				7DF163DC1DD6AFEF001D85B5 /* ImagePickerHelper.swift */,
+				7DF163DA1DD6A93D001D85B5 /* WelcomeViewController.swift */,
 				7D77B05C1DCF8CAF0057EB19 /* Assets.xcassets */,
 				7D77B05E1DCF8CAF0057EB19 /* LaunchScreen.storyboard */,
 				7D77B0611DCF8CAF0057EB19 /* Info.plist */,
@@ -125,6 +174,15 @@
 			path = FlicUITests;
 			sourceTree = "<group>";
 		};
+		D6899B58F1E6C313AB1F1C6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2A3F1CA187E0F1C03387D8E /* Pods-Flic.debug.xcconfig */,
+				6DA1F762A9E55B4FBBEDE82C /* Pods-Flic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D77B07A1DCF8CAF0057EB19 /* Build configuration list for PBXNativeTarget "Flic" */;
 			buildPhases = (
+				3BCBD7F037684250F7DB032D /* [CP] Check Pods Manifest.lock */,
 				7D77B04E1DCF8CAF0057EB19 /* Sources */,
 				7D77B04F1DCF8CAF0057EB19 /* Frameworks */,
 				7D77B0501DCF8CAF0057EB19 /* Resources */,
+				2D4FBB0EEBF777DE07E3848E /* [CP] Embed Pods Frameworks */,
+				144B4D08DE9AC280E736F090 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +256,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = B25Q8V2Z8P;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					7D77B0651DCF8CAF0057EB19 = {
 						CreatedOnToolsVersion = 8.0;
@@ -237,6 +303,8 @@
 			files = (
 				7D77B0601DCF8CAF0057EB19 /* LaunchScreen.storyboard in Resources */,
 				7D77B05D1DCF8CAF0057EB19 /* Assets.xcassets in Resources */,
+				7D59B9261DD579CB0039D19A /* GoogleService-Info.plist in Resources */,
+				7D59B9241DD574EE0039D19A /* Podfile in Resources */,
 				7D77B05B1DCF8CAF0057EB19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +325,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		144B4D08DE9AC280E736F090 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flic/Pods-Flic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D4FBB0EEBF777DE07E3848E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flic/Pods-Flic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BCBD7F037684250F7DB032D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D77B04E1DCF8CAF0057EB19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D77B0581DCF8CAF0057EB19 /* ViewController.swift in Sources */,
+				7DF163D71DD6A8E0001D85B5 /* NewsfeedTableViewController.swift in Sources */,
+				7DF163D91DD6A8FE001D85B5 /* SignupTableViewController.swift in Sources */,
+				7D59B9281DD57B0D0039D19A /* FirebaseReference.swift in Sources */,
+				7DF163DD1DD6AFEF001D85B5 /* ImagePickerHelper.swift in Sources */,
+				7D59B92D1DD587BF0039D19A /* FIRImage.swift in Sources */,
 				7D77B0561DCF8CAF0057EB19 /* AppDelegate.swift in Sources */,
+				7D59B92B1DD5806C0039D19A /* User.swift in Sources */,
+				7DF163DB1DD6A93D001D85B5 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +533,10 @@
 		};
 		7D77B07B1DCF8CAF0057EB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A3F1CA187E0F1C03387D8E /* Pods-Flic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Flic/Flic.entitlements;
 				DEVELOPMENT_TEAM = B25Q8V2Z8P;
 				INFOPLIST_FILE = Flic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -424,8 +548,10 @@
 		};
 		7D77B07C1DCF8CAF0057EB19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA1F762A9E55B4FBBEDE82C /* Pods-Flic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Flic/Flic.entitlements;
 				DEVELOPMENT_TEAM = B25Q8V2Z8P;
 				INFOPLIST_FILE = Flic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -512,6 +638,7 @@
 				7D77B07C1DCF8CAF0057EB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D77B07D1DCF8CAF0057EB19 /* Build configuration list for PBXNativeTarget "FlicTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +647,7 @@
 				7D77B07F1DCF8CAF0057EB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D77B0801DCF8CAF0057EB19 /* Build configuration list for PBXNativeTarget "FlicUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +656,7 @@
 				7D77B0821DCF8CAF0057EB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

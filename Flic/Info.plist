@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Let Flic access your camera for image sharing capabilities</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Let Flic access your photo library for image sharing capabilities</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
